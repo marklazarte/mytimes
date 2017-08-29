@@ -1,0 +1,79 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.logo {
+  color: MediumAquamarine;
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+  border: 1px solid black;
+}
+
+
+.column.large {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+}
+
+.lead-story {
+  border: 1px solid black;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.lead-story .image-content {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+.story .fall-cancelled {
+  display: flex;
+  background-image: url("../images/img-story-2.png");
+  border: 1px solid black;
+}
+
+.story .pop-culture{
+  display: flex;
+  background-image: url("../images/img-story-3.png");
+  border: 1px solid black;
+}
+
+.story .cats{
+  display: flex;
+  background-image: url("../images/img-story-1.png");
+  border: 1px solid black;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.news-bites {
+  border: 1px solid black;
+}
